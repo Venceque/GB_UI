@@ -37,27 +37,27 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="aFw-IW-nRe">
-                                                <rect key="frame" x="107" y="191.33333333333337" width="200" height="140"/>
+                                                <rect key="frame" x="106" y="191.33333333333337" width="202" height="140"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2S7-pj-Cpd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="202" height="30"/>
                                                         <color key="backgroundColor" red="0.61355090199846707" green="0.66127393453632788" blue="1" alpha="0.50497909330985913" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" priority="750" constant="200" id="6c3-TS-00g"/>
+                                                            <constraint firstAttribute="width" priority="750" constant="202" id="6c3-TS-00g"/>
                                                         </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wKe-jP-ioJ">
-                                                        <rect key="frame" x="0.0" y="55" width="200" height="30"/>
+                                                        <rect key="frame" x="0.0" y="55" width="202" height="30"/>
                                                         <color key="backgroundColor" red="0.30998587608337402" green="0.56722456216812134" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TId-Vh-h8b">
-                                                        <rect key="frame" x="83" y="109.99999999999997" width="34" height="30"/>
+                                                        <rect key="frame" x="84" y="109.99999999999997" width="34" height="30"/>
                                                         <state key="normal" title="login">
                                                             <color key="titleColor" red="0.054788698189999999" green="0.054788698189999999" blue="0.054788698189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>

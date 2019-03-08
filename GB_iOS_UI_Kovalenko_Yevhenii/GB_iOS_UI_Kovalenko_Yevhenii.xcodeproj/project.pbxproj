@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0D3862522298B9C001E33AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D3862422298B9C001E33AD /* AppDelegate.swift */; };
-		E0D3862722298B9C001E33AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D3862622298B9C001E33AD /* ViewController.swift */; };
-		E0D3862A22298B9C001E33AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D3862822298B9C001E33AD /* Main.storyboard */; };
-		E0D3862C22298B9E001E33AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D3862B22298B9E001E33AD /* Assets.xcassets */; };
-		E0D3862F22298B9E001E33AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D3862D22298B9E001E33AD /* LaunchScreen.storyboard */; };
+		E0EC461722316E7300535F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC461622316E7300535F42 /* AppDelegate.swift */; };
+		E0EC461922316E7300535F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC461822316E7300535F42 /* ViewController.swift */; };
+		E0EC461C22316E7300535F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC461A22316E7300535F42 /* Main.storyboard */; };
+		E0EC461E22316E7400535F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EC461D22316E7400535F42 /* Assets.xcassets */; };
+		E0EC462122316E7400535F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC461F22316E7400535F42 /* LaunchScreen.storyboard */; };
+		E0EC46302231E17B00535F42 /* MyFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC462F2231E17B00535F42 /* MyFriendsTableViewCell.swift */; };
+		E0EC46322231E1B300535F42 /* MyComTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC46312231E1B300535F42 /* MyComTableViewCell.swift */; };
+		E0EC46342231E1D100535F42 /* GlobalComTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC46332231E1D100535F42 /* GlobalComTableViewCell.swift */; };
+		E0EC46362231E20700535F42 /* MyComTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC46352231E20700535F42 /* MyComTableViewController.swift */; };
+		E0EC46382231E22E00535F42 /* GlobalComTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC46372231E22E00535F42 /* GlobalComTableViewController.swift */; };
+		E0EC463A2231E26300535F42 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC46392231E26300535F42 /* MyCollectionViewController.swift */; };
+		E0EC463C2231E27F00535F42 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC463B2231E27F00535F42 /* MyCollectionViewCell.swift */; };
+		E0EC463E2231F4F800535F42 /* MyFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC463D2231F4F800535F42 /* MyFriendsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E0D3862122298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_iOS_UI_Kovalenko_Yevhenii.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0D3862422298B9C001E33AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0D3862622298B9C001E33AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E0D3862922298B9C001E33AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0D3862B22298B9E001E33AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E0D3862E22298B9E001E33AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E0D3863022298B9E001E33AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EC461322316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_iOS_UI_Kovalenko_Yevhenii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EC461622316E7300535F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0EC461822316E7300535F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0EC461B22316E7300535F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0EC461D22316E7400535F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0EC462022316E7400535F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0EC462222316E7400535F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EC462F2231E17B00535F42 /* MyFriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsTableViewCell.swift; sourceTree = "<group>"; };
+		E0EC46312231E1B300535F42 /* MyComTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComTableViewCell.swift; sourceTree = "<group>"; };
+		E0EC46332231E1D100535F42 /* GlobalComTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalComTableViewCell.swift; sourceTree = "<group>"; };
+		E0EC46352231E20700535F42 /* MyComTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComTableViewController.swift; sourceTree = "<group>"; };
+		E0EC46372231E22E00535F42 /* GlobalComTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalComTableViewController.swift; sourceTree = "<group>"; };
+		E0EC46392231E26300535F42 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		E0EC463B2231E27F00535F42 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0EC463D2231F4F800535F42 /* MyFriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E0D3861E22298B9C001E33AD /* Frameworks */ = {
+		E0EC461022316E7300535F42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +51,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E0D3861822298B9C001E33AD = {
+		E0EC460A22316E7300535F42 = {
 			isa = PBXGroup;
 			children = (
-				E0D3862322298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii */,
-				E0D3862222298B9C001E33AD /* Products */,
+				E0EC461522316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii */,
+				E0EC461422316E7300535F42 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E0D3862222298B9C001E33AD /* Products */ = {
+		E0EC461422316E7300535F42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0D3862122298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii.app */,
+				E0EC461322316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E0D3862322298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii */ = {
+		E0EC461522316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii */ = {
 			isa = PBXGroup;
 			children = (
-				E0D3862422298B9C001E33AD /* AppDelegate.swift */,
-				E0D3862622298B9C001E33AD /* ViewController.swift */,
-				E0D3862822298B9C001E33AD /* Main.storyboard */,
-				E0D3862B22298B9E001E33AD /* Assets.xcassets */,
-				E0D3862D22298B9E001E33AD /* LaunchScreen.storyboard */,
-				E0D3863022298B9E001E33AD /* Info.plist */,
+				E0EC462B2231E08800535F42 /* Friends */,
+				E0EC462C2231E0CF00535F42 /* MyCollectionView */,
+				E0EC46282231E05500535F42 /* Communities */,
+				E0EC461622316E7300535F42 /* AppDelegate.swift */,
+				E0EC461822316E7300535F42 /* ViewController.swift */,
+				E0EC461A22316E7300535F42 /* Main.storyboard */,
+				E0EC461D22316E7400535F42 /* Assets.xcassets */,
+				E0EC461F22316E7400535F42 /* LaunchScreen.storyboard */,
+				E0EC462222316E7400535F42 /* Info.plist */,
 			);
 			path = GB_iOS_UI_Kovalenko_Yevhenii;
+			sourceTree = "<group>";
+		};
+		E0EC46282231E05500535F42 /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC46292231E06000535F42 /* MyCommunities */,
+				E0EC462A2231E06F00535F42 /* GlobalCommunities */,
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
+		E0EC46292231E06000535F42 /* MyCommunities */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC46352231E20700535F42 /* MyComTableViewController.swift */,
+				E0EC46312231E1B300535F42 /* MyComTableViewCell.swift */,
+			);
+			path = MyCommunities;
+			sourceTree = "<group>";
+		};
+		E0EC462A2231E06F00535F42 /* GlobalCommunities */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC46372231E22E00535F42 /* GlobalComTableViewController.swift */,
+				E0EC46332231E1D100535F42 /* GlobalComTableViewCell.swift */,
+			);
+			path = GlobalCommunities;
+			sourceTree = "<group>";
+		};
+		E0EC462B2231E08800535F42 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC463D2231F4F800535F42 /* MyFriendsTableViewController.swift */,
+				E0EC462F2231E17B00535F42 /* MyFriendsTableViewCell.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		E0EC462C2231E0CF00535F42 /* MyCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC46392231E26300535F42 /* MyCollectionViewController.swift */,
+				E0EC463B2231E27F00535F42 /* MyCollectionViewCell.swift */,
+			);
+			path = MyCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0D3862022298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii */ = {
+		E0EC461222316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0D3863322298B9E001E33AD /* Build configuration list for PBXNativeTarget "GB_iOS_UI_Kovalenko_Yevhenii" */;
+			buildConfigurationList = E0EC462522316E7400535F42 /* Build configuration list for PBXNativeTarget "GB_iOS_UI_Kovalenko_Yevhenii" */;
 			buildPhases = (
-				E0D3861D22298B9C001E33AD /* Sources */,
-				E0D3861E22298B9C001E33AD /* Frameworks */,
-				E0D3861F22298B9C001E33AD /* Resources */,
+				E0EC460F22316E7300535F42 /* Sources */,
+				E0EC461022316E7300535F42 /* Frameworks */,
+				E0EC461122316E7300535F42 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +145,25 @@
 			);
 			name = GB_iOS_UI_Kovalenko_Yevhenii;
 			productName = GB_iOS_UI_Kovalenko_Yevhenii;
-			productReference = E0D3862122298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii.app */;
+			productReference = E0EC461322316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E0D3861922298B9C001E33AD /* Project object */ = {
+		E0EC460B22316E7300535F42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Vence Berg";
 				TargetAttributes = {
-					E0D3862022298B9C001E33AD = {
+					E0EC461222316E7300535F42 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = E0D3861C22298B9C001E33AD /* Build configuration list for PBXProject "GB_iOS_UI_Kovalenko_Yevhenii" */;
+			buildConfigurationList = E0EC460E22316E7300535F42 /* Build configuration list for PBXProject "GB_iOS_UI_Kovalenko_Yevhenii" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +171,62 @@
 				en,
 				Base,
 			);
-			mainGroup = E0D3861822298B9C001E33AD;
-			productRefGroup = E0D3862222298B9C001E33AD /* Products */;
+			mainGroup = E0EC460A22316E7300535F42;
+			productRefGroup = E0EC461422316E7300535F42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0D3862022298B9C001E33AD /* GB_iOS_UI_Kovalenko_Yevhenii */,
+				E0EC461222316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E0D3861F22298B9C001E33AD /* Resources */ = {
+		E0EC461122316E7300535F42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D3862F22298B9E001E33AD /* LaunchScreen.storyboard in Resources */,
-				E0D3862C22298B9E001E33AD /* Assets.xcassets in Resources */,
-				E0D3862A22298B9C001E33AD /* Main.storyboard in Resources */,
+				E0EC462122316E7400535F42 /* LaunchScreen.storyboard in Resources */,
+				E0EC461E22316E7400535F42 /* Assets.xcassets in Resources */,
+				E0EC461C22316E7300535F42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E0D3861D22298B9C001E33AD /* Sources */ = {
+		E0EC460F22316E7300535F42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D3862722298B9C001E33AD /* ViewController.swift in Sources */,
-				E0D3862522298B9C001E33AD /* AppDelegate.swift in Sources */,
+				E0EC46342231E1D100535F42 /* GlobalComTableViewCell.swift in Sources */,
+				E0EC461922316E7300535F42 /* ViewController.swift in Sources */,
+				E0EC461722316E7300535F42 /* AppDelegate.swift in Sources */,
+				E0EC46322231E1B300535F42 /* MyComTableViewCell.swift in Sources */,
+				E0EC46382231E22E00535F42 /* GlobalComTableViewController.swift in Sources */,
+				E0EC463E2231F4F800535F42 /* MyFriendsTableViewController.swift in Sources */,
+				E0EC463A2231E26300535F42 /* MyCollectionViewController.swift in Sources */,
+				E0EC463C2231E27F00535F42 /* MyCollectionViewCell.swift in Sources */,
+				E0EC46362231E20700535F42 /* MyComTableViewController.swift in Sources */,
+				E0EC46302231E17B00535F42 /* MyFriendsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0D3862822298B9C001E33AD /* Main.storyboard */ = {
+		E0EC461A22316E7300535F42 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0D3862922298B9C001E33AD /* Base */,
+				E0EC461B22316E7300535F42 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E0D3862D22298B9E001E33AD /* LaunchScreen.storyboard */ = {
+		E0EC461F22316E7400535F42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0D3862E22298B9E001E33AD /* Base */,
+				E0EC462022316E7400535F42 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E0D3863122298B9E001E33AD /* Debug */ = {
+		E0EC462322316E7400535F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		E0D3863222298B9E001E33AD /* Release */ = {
+		E0EC462422316E7400535F42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +350,7 @@
 			};
 			name = Release;
 		};
-		E0D3863422298B9E001E33AD /* Debug */ = {
+		E0EC462622316E7400535F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +368,7 @@
 			};
 			name = Debug;
 		};
-		E0D3863522298B9E001E33AD /* Release */ = {
+		E0EC462722316E7400535F42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,25 +389,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0D3861C22298B9C001E33AD /* Build configuration list for PBXProject "GB_iOS_UI_Kovalenko_Yevhenii" */ = {
+		E0EC460E22316E7300535F42 /* Build configuration list for PBXProject "GB_iOS_UI_Kovalenko_Yevhenii" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0D3863122298B9E001E33AD /* Debug */,
-				E0D3863222298B9E001E33AD /* Release */,
+				E0EC462322316E7400535F42 /* Debug */,
+				E0EC462422316E7400535F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0D3863322298B9E001E33AD /* Build configuration list for PBXNativeTarget "GB_iOS_UI_Kovalenko_Yevhenii" */ = {
+		E0EC462522316E7400535F42 /* Build configuration list for PBXNativeTarget "GB_iOS_UI_Kovalenko_Yevhenii" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0D3863422298B9E001E33AD /* Debug */,
-				E0D3863522298B9E001E33AD /* Release */,
+				E0EC462622316E7400535F42 /* Debug */,
+				E0EC462722316E7400535F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E0D3861922298B9C001E33AD /* Project object */;
+	rootObject = E0EC460B22316E7300535F42 /* Project object */;
 }

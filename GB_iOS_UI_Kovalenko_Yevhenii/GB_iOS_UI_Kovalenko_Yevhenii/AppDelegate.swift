@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GB_iOS_UI_Kovalenko_Yevhenii
 //
-//  Created by Vence Berg on 01/03/2019.
+//  Created by Vence Berg on 07/03/2019.
 //  Copyright © 2019 Vence Berg. All rights reserved.
 //
 

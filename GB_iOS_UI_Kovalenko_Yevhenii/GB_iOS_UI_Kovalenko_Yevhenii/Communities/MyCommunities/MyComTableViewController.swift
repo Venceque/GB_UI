@@ -63,12 +63,10 @@ class MyComTableViewController: UITableViewController {
                     if community.name == x.name {
                         cons = false
                     }
-                    
-                    
-                }
+          }
                 
                 
-                if cons {
+                 if cons {
                     
                     myCommunities.append(community)
                     tableView.reloadData()
@@ -86,10 +84,6 @@ class MyComTableViewController: UITableViewController {
                     present(alter, animated: true, completion: nil)
                     
                 }
-                
-                
-                
-                
                 
             }
             

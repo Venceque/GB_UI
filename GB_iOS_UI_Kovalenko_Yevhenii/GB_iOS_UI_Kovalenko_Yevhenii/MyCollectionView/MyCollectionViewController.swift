@@ -13,7 +13,7 @@ import UIKit
 class MyCollectionViewController: UICollectionViewController {
     
     
-     lazy var friendImage: UIImage = UIImage()
+    lazy var friendImage: UIImage = UIImage()
     lazy var friendName: String = String()
 
     override func viewDidLoad() {

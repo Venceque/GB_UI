@@ -13,11 +13,12 @@ class MyFriendsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var friendsName: UILabel!
     @IBOutlet weak var friendsAvatar: UIImageView!
+    @IBOutlet weak var backViewForaAvatar: BackView!
     //  @IBOutlet weak var friendsAvatar: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+//     
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

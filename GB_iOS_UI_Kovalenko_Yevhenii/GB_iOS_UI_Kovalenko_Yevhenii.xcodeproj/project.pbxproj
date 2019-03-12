@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0B7AF4A2236DACB008E9907 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7AF492236DACB008E9907 /* BackView.swift */; };
+		E0B7AF4C2237D90D008E9907 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7AF4B2237D90D008E9907 /* AvatarImageView.swift */; };
 		E0EC461722316E7300535F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC461622316E7300535F42 /* AppDelegate.swift */; };
 		E0EC461922316E7300535F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC461822316E7300535F42 /* ViewController.swift */; };
 		E0EC461C22316E7300535F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC461A22316E7300535F42 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0B7AF492236DACB008E9907 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		E0B7AF4B2237D90D008E9907 /* AvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
 		E0EC461322316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_iOS_UI_Kovalenko_Yevhenii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EC461622316E7300535F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0EC461822316E7300535F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0B7AF4D2237E4D2008E9907 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0B7AF4B2237D90D008E9907 /* AvatarImageView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		E0EC460A22316E7300535F42 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +82,7 @@
 		E0EC461522316E7300535F42 /* GB_iOS_UI_Kovalenko_Yevhenii */ = {
 			isa = PBXGroup;
 			children = (
+				E0B7AF4D2237E4D2008E9907 /* Custom Views */,
 				E0EC462B2231E08800535F42 /* Friends */,
 				E0EC462C2231E0CF00535F42 /* MyCollectionView */,
 				E0EC46282231E05500535F42 /* Communities */,
@@ -115,6 +128,7 @@
 			children = (
 				E0EC463D2231F4F800535F42 /* MyFriendsTableViewController.swift */,
 				E0EC462F2231E17B00535F42 /* MyFriendsTableViewCell.swift */,
+				E0B7AF492236DACB008E9907 /* BackView.swift */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -199,8 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B7AF4A2236DACB008E9907 /* BackView.swift in Sources */,
 				E0EC46342231E1D100535F42 /* GlobalComTableViewCell.swift in Sources */,
 				E0EC461922316E7300535F42 /* ViewController.swift in Sources */,
+				E0B7AF4C2237D90D008E9907 /* AvatarImageView.swift in Sources */,
 				E0EC461722316E7300535F42 /* AppDelegate.swift in Sources */,
 				E0EC46322231E1B300535F42 /* MyComTableViewCell.swift in Sources */,
 				E0EC46382231E22E00535F42 /* GlobalComTableViewController.swift in Sources */,

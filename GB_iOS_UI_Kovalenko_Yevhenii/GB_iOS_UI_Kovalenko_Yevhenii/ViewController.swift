@@ -32,6 +32,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var loginInput: UITextField!
     @IBOutlet weak var passwordInput: UITextField!
     
+    
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.HideKeyboard()
